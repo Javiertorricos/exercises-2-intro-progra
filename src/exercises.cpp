@@ -11,7 +11,8 @@ void exercise_1(string s1) {
       cout << i << endl;
     }
   }
-  cout << str.size() << endl;
+  cout << str.size() << endl; 
+  
 }
 
 void exercise_2(string s1) {
