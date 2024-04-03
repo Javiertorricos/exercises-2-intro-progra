@@ -26,6 +26,11 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
+  int fact = 1;
+for(int i = 1; n >= i; ++i){
+  fact = fact * i;
+}
+cout << fact << endl;
 }
 
 void exercise_5(int n, int k) {
