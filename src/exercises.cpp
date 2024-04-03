@@ -26,14 +26,14 @@ void exercise_3(string s1) {
 
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
-  int fact = 1;
-for(int i = 1; n >= i; ++i){
   if(int n < 0) {
     cout << "El numero es negativo. Intentelo de nuevo " << endl;
   }
   else if(int n > 15 ) {
     cout << "El numero es muy grande. Intentelo de nuevo " << endl;
     }
+  int fact = 1;
+for(int i = 1; n >= i; ++i){
   fact = fact * i;
 }
 cout << fact << endl;
