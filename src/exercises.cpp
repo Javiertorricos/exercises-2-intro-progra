@@ -29,10 +29,10 @@ void exercise_4(int n) {
   int i = 1;
   int multiply = 1;
   if(n < 0){
-    cout << "El numero es negativo. Intentalo de nuevo" << endl;
+    cout << "El numero es negativo. Intentelo de nuevo" << endl;
   }
   else if(n > 14){
-    cout << "El numero es muy grande. Intentalo de nuevo" << endl;
+    cout << "El numero es muy grande. Intentelo de nuevo" << endl;
   }
   else if(n>=0 && n <=14){
     while(i<=n){
