@@ -34,7 +34,7 @@ void exercise_4(int n) {
   else if(n > 14){
     cout << "El numero es muy grande. Intentalo de nuevo" << endl;
   }
-  else if(n>=0 && numero <=14){
+  else if(n>=0 && n <=14){
     while(i<=n){
       multiply *=i;
       ++i;
