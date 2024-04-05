@@ -39,7 +39,7 @@ void exercise_3(string s1) {
 void exercise_4(int n) {
   // TODO: YOUR CODE HERE
   int i = 1;
-  int multiply = 1;
+  int multiplo = 1;
   if(n < 0){
     cout << "El numero es negativo. Intentelo de nuevo" << endl;
   }
@@ -48,10 +48,10 @@ void exercise_4(int n) {
   }
   else if(n>=0 && n <=14){
     while(i<=n){
-      multiply *=i;
+      multiplo *=i;
       ++i;
     }
-    cout << multiply << endl;
+    cout << multiplo << endl;
   }
 }
 
