@@ -61,8 +61,15 @@ void exercise_5(int n, int k) {
 
 int exercise_6(int n) {
   // TODO: YOUR CODE HERE
-
-  return 0;
+ cin >> n; 
+int sum = 0;
+if(n > 100){
+while(n > 0){
+  sum = sum + n%10;
+  n = n/10;
+}
+  return sum;
+  }
 }
 
 void exercise_7(int n) {
