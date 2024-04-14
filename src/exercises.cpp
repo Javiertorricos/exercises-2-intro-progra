@@ -144,7 +144,7 @@ void exercise_16(int divident, int divider) {
           resto = resto - divider;
         }
         cociente = i;
-        cout << cociente << endl;
+        cout << cociente << " ";
         cout << resto << endl;
     }
 }
