@@ -34,6 +34,20 @@ void exercise_2(string s1) {
 
 void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
+for(int i = 0; i < s1.size(); i++){
+  char halo = s1[i];
+  if (i > 11){
+    break;
+  }
+  if(halo == "0"){
+    cout << "No cake :(" << endl;
+    break;
+  }
+  else if(halo =="1"){
+    cout << "Om-nom-nom :P" << endl;
+  }
+}
+
 }
 
 void exercise_4(int n) {
