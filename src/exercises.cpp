@@ -88,7 +88,7 @@ void exercise_7(int n) {
   cin >> n;
     double result = 0;
     for(int i = 1; i <= n; i++){
-    result += pow(-1,i+1)/1;
+    result += pow(-1,i+1)/i;
 }
 cout << result << endl;
 }
