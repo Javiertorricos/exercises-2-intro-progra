@@ -85,6 +85,12 @@ while(n > 0){
 
 void exercise_7(int n) {
   // TODO: YOUR CODE HERE
+  cin >> n;
+    double result = 0;
+    for(int i = 1; i <= n; i++){
+    result += pow(-1,i+1)/1;
+}
+cout << result << endl;
 }
 
 void exercise_8(string s) {
