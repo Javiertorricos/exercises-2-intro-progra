@@ -136,6 +136,17 @@ void exercise_15(int decimal) {
 
 void exercise_16(int divident, int divider) {
   // TODO: YOUR CODE HERE
+  int cociente = 0;
+  int resto = divident;
+  int i = 0;
+    if(divider!=0){
+        for(i; resto-divider >= 0; ++i){
+          resto = resto - divider;
+        }
+        cociente = i;
+        cout << cociente << endl;
+        cout << resto << endl;
+    }
 }
 
 void exercise_17(int n) {
