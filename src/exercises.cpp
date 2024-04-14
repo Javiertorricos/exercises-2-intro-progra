@@ -36,7 +36,7 @@ void exercise_3(string s1) {
   // TODO: YOUR CODE HERE
 for(int i = 0; i < s1.size(); i++){
   char halo = s1[i];
-  if (i > 11){
+  if (i > 19){
     break;
   }
   if(halo == '0'){
