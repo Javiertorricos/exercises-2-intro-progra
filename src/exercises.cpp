@@ -39,7 +39,7 @@ for(int i = 0; i < s1.size(); i++){
   if (i > 11){
     break;
   }
-  if(halo == '0'{
+  if(halo == '0'){
     cout << "No cake :(" << endl;
     break;
   }
@@ -47,7 +47,6 @@ for(int i = 0; i < s1.size(); i++){
     cout << "Om-nom-nom :P" << endl;
   }
 }
-
 }
 
 void exercise_4(int n) {
