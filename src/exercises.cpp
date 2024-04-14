@@ -39,11 +39,11 @@ for(int i = 0; i < s1.size(); i++){
   if (i > 11){
     break;
   }
-  if(halo == "0"){
+  if(halo == '0'{
     cout << "No cake :(" << endl;
     break;
   }
-  else if(halo =="1"){
+  else if(halo == '1'){
     cout << "Om-nom-nom :P" << endl;
   }
 }
