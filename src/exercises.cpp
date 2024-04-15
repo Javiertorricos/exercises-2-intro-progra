@@ -103,7 +103,7 @@ void exercise_9(string s) {
   int seg = 0;
   for(int i = 0; i <= s.size(); ++i){
     if(s[i] == 'f'){
-      seg = 1;
+      seg = i;
       ++cant;
     }
   }
