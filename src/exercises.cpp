@@ -138,6 +138,14 @@ void exercise_11() {
 
 void exercise_12() {
   // TODO: YOUR CODE HERE
+  double Ui = 1;
+  double U = Ui;
+  for(int i = 1; 10 >= i; ++i){
+    int Vi = U;
+    double result = Ui/(i +1);
+    cout << "U" << i << " = " << Ui << " " << "V" << i << " = " << Vi << endl;
+    Ui = result
+  }
 }
 
 long exercise_13(int n, int k) {
