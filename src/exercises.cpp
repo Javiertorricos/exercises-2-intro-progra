@@ -127,12 +127,12 @@ int exercise_10(int a, int b) {
 
 void exercise_11() {
   // TODO: YOUR CODE HERE
-  double ui = 1;
-  cout << "u0 = 1" << endl;
+  double Ui = 1;
+  cout << "U0 = 1" << endl;
   for(int i = 1; 10 >= i; ++i){
-    double total = ui/( i + 1);
-    cout << "U" << i << " = " << ui << endl;
-    ui = total;
+    double total = Ui/( i + 1);
+    cout << "U" << i << " = " << Ui << endl;
+    Ui = total;
   }
 }
 
