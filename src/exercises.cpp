@@ -104,7 +104,7 @@ void exercise_9(string s) {
   for(int i = 0; i <= s.size(); ++i){
     if(s[i] == 'f'){
       seg = 1;
-      ++ cant
+      ++cant;
     }
   }
   switch(cant){
