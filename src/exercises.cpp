@@ -144,7 +144,7 @@ void exercise_12() {
     int Vi = U;
     double result = Ui/(i +1);
     cout << "U" << i << " = " << Ui << " " << "V" << i << " = " << Vi << endl;
-    Ui = result
+    Ui = result;
   }
 }
 
