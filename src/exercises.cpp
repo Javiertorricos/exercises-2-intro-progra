@@ -99,6 +99,25 @@ void exercise_8(string s) {
 
 void exercise_9(string s) {
   // TODO: YOUR CODE HERE
+  int cant = 0;
+  int seg = 0;
+  for(int i = 0; i <= s.size(); ++i){
+    if(s[i] == 'f'){
+      seg = 1;
+      ++ cant
+    }
+  }
+  switch(cant){
+    case 0:
+    cout << -2 << endl;
+    break;
+    case 1:
+    cout << -1 << endl;
+    break;
+    case 2:
+    cout << seg << endl;
+    break;
+  }
 }
 
 int exercise_10(int a, int b) {
