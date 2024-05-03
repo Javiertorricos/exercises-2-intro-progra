@@ -199,8 +199,22 @@ void exercise_9(string s) {
 }
 
 int exercise_10(int a, int b) {
-  // TODO: YOUR CODE HERE
-  return 0;
+int MCD = 1;
+    if(a==0){
+      return b;
+    }else if(b==0){
+      return a;
+    }else{
+    for(int i=2; a>=i && b>=i; ++i){
+
+        while(a%i==0 && b%i==0){
+            MCD = MCD *i;
+            a = a/i;
+            b = b/i;
+        }
+    }
+  }
+  return MCD;
 }
 
 void exercise_11() {
