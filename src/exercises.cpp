@@ -69,7 +69,7 @@ void exercise_4(int n) {
 }
 
 void exercise_5(int n, int k) {
-  
+
    string espacio1;
     switch(n){
         case 1:
@@ -149,7 +149,30 @@ cout << result << endl;
 }
 
 void exercise_8(string s) {
-  // TODO: YOUR CODE HERE
+int s_size=s.size();
+    string s_2;
+    for(int i=0;s_size-1>=i ; ++i){
+
+        char s_letter = s[i];
+        if(s_letter!=' '){
+            s_2 = s_2 + s_letter;
+        }
+    }
+    bool ESPalindromo = true;
+    int n = s_2.size();
+
+    for (int i = 0; i < n / 2; ++i) {
+        if (s_2[i] != s_2[n - 1 - i]) {
+            ESPalindromo = false;
+            break;
+        }
+    }
+
+    if(ESPalindromo) {
+        cout << "YES" << endl;
+    }else {
+        cout << "NO" << endl;
+    }  
 }
 
 void exercise_9(string s) {
