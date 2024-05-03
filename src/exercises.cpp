@@ -309,7 +309,26 @@ void exercise_16(int divident, int divider) {
 }
 
 void exercise_17(int n) {
-  // TODO: YOUR CODE HERE
+    int i = 0; 
+    int  k = 2; 
+    
+    while (n > i) {
+        bool esPrimo = true;
+        
+        for (int i = 2; i <= k/2; ++i) {
+            if (k % i == 0) {
+                esPrimo = false;
+                break; 
+            }
+        }
+        
+        if (esPrimo) {
+            cout << k << " "; 
+            ++i; 
+        }
+        
+        ++k; 
+    }  
 }
 
 void exercise_18_19(int debut, int fin) {
