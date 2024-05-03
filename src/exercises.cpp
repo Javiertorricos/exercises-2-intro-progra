@@ -332,5 +332,29 @@ void exercise_17(int n) {
 }
 
 void exercise_18_19(int debut, int fin) {
-  // TODO: YOUR CODE HERE
+  if(fin>=debut){
+    if(debut>0 && fin>0){
+        for(debut; debut<=fin; ++debut){
+            int i = 0;
+            int debut1= debut;
+            while(debut1!=0){
+                if(debut1%3 == 0){
+                    debut1 += 4;
+                    ++i;
+                }else if(debut1%4==0){
+                    debut1 /=2;
+                    ++i; 
+                }else{
+                    --debut1;
+                    ++i;
+                }
+            }
+            cout << debut << "->" << i << endl;
+        }
+    }else{
+            cout << "El numero debe de ser positivo y mayor a zero" << endl;
+        }
+    }else{
+        cout << "El numero de fin no debe de ser menor al inicial" << endl;
+    }
 }
